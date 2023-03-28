@@ -1,0 +1,16 @@
+.divprincipal {
+    background-color: #fff;
+    width: fit-content;
+    padding-top: 64px;
+    padding-right: 26px;
+    padding-left: 26px;
+    height: 585px;
+    display: flex;
+}
+
+.link {
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+

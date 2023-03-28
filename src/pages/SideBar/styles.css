@@ -1,0 +1,279 @@
+.souv-sidebar {
+    background-color: #fff;
+    position: relative;
+    width: fit-content;
+    padding-top: 64px;
+    padding-right: 26px;
+    padding-left: 26px;
+    height: 900px;
+    display: flex;
+}
+
+.souv-sidebar-container img {
+    width: 229px;
+    height: 26.58px;
+}
+
+.souv-sidebar-geral h3 {
+    position: relative;
+    width: 300px;
+    top: 70px;
+    right: 180px;
+
+    font-style: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    width: fit-content;
+
+}
+
+.souv-sidebar-button-home {
+    box-sizing: border-box;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border-radius: 15px;
+
+
+}
+
+.souv-sidebar-button-home a {
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    font-style: 'Montserrat';
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 18px;
+
+    position: relative;
+    right: 30px;
+
+
+    color: #A1AEBF;
+}
+
+.souv-sidebar-button-home img {
+    position: relative;
+    width: 25px;
+    right: 45px;
+
+}
+
+.souv-sidebar-button-curso {
+    box-sizing: border-box;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 28%;
+    border: 2px solid #01B5D8;
+    border-radius: 15px;
+
+
+}
+
+.souv-sidebar-button-curso a {
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    font-style: 'Montserrat';
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 18px;
+
+    position: relative;
+    right: 30px;
+
+
+    color: #01B5D8;
+}
+
+.souv-sidebar-button-curso img {
+    position: relative;
+    width: 25px;
+    right: 45px;
+}
+
+.souv-sidebar-button-fundoIconCurso {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 43.5px;
+    top: 29%;
+
+    background: #29d8fc;
+    border-radius: 12px;
+}
+
+.souv-sidebar-button-meuCurso {
+    box-sizing: border-box;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 36%;
+    border-radius: 15px;
+
+
+}
+
+.souv-sidebar-button-meuCurso a {
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    font-style: 'Montserrat';
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 18px;
+
+    position: relative;
+    right: 5px;
+
+
+    color: #A1AEBF;
+}
+
+.souv-sidebar-button-meuCurso img {
+    position: relative;
+    width: 25px;
+    right: 20px;
+
+}
+
+.souv-sidebar-button-perfil {
+    box-sizing: border-box;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 44%;
+    border-radius: 15px;
+
+
+}
+
+.souv-sidebar-button-perfil a {
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    font-style: 'Montserrat';
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 18px;
+
+    position: relative;
+    right: 30px;
+
+
+    color: #A1AEBF;
+}
+
+.souv-sidebar-button-perfil img {
+    position: relative;
+    width: 25px;
+    right: 45px;
+
+}
+
+.souv-sidebar-fundoAjuda {
+    position: absolute;
+    top: 55%;
+    right: 23%;
+}
+
+.souv-sidebar-inrrogacao {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 45px;
+    top: 550px;
+}
+
+.souv-sidebar-button-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    left: 12%;
+    top: 67%;
+    border: 2px solid #01B5D8;
+    background-color: #fff;
+    border-radius: 15px;
+
+
+}
+
+.souv-sidebar-button-acessar a {
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    font-style: 'Montserrat';
+    line-height: 3;
+    font-weight: 600;
+    font-size: 14px;
+
+    position: relative;
+    right: center;
+
+
+    color: #2D3748;
+}
+
+.souv-sidebar-textoAjuda {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    left: 49px;
+    top: 590px;
+
+
+    font-style: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black&amp;White/White */
+
+    color: #FFFFFF;
+}
+
+.souv-sidebar-textoAjuda2 {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    left: 49px;
+    top: 615px;
+
+
+    font-style: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black&amp;White/White */
+
+    color: #FFFFFF;
+}

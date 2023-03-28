@@ -1,0 +1,846 @@
+header {
+    background-color: #edf2f7ee;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+.souv-header-container {}
+
+.souv-header-container img {
+    height: 250px;
+    width: 1330px;
+    border-radius: 15px;
+
+}
+
+.souv-header-container-text h3 {
+    position: relative;
+    width: 182px;
+    height: 65px;
+    right: 1310px;
+    bottom: 80px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.souv-header-pesquisa-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 1150px;
+    padding: 0px;
+    position: absolute;
+    left: 253px;
+    top: 200px;
+    background: #FFFFFF;
+    border: 1.2px solid #E2E8F0;
+    border-radius: 10px;
+}
+
+.souv-header-container-pesquisa img {
+    position: relative;
+    width: 17x;
+    height: 17px;
+    left: 10px;
+    top: 15px;
+    align-items: center;
+}
+
+.souv-header-container-pesquisa h4 {
+    position: relative;
+    color: #A0AEC0;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    left:45px;
+    bottom: 27px;
+}
+
+.souv-header-filtro-box {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 1170px;
+    background: #FFFFFF;
+    border: 0.903375px solid #E2E8F0;
+    border-radius: 10px;
+}
+
+.souv-header-container-filtro img {
+    position: relative;
+    color: black;
+    font-family: 'Roboto';
+    width: 22px;
+    height: 19px;
+    left: 1123px;
+    top: 15px;
+}
+
+.souv-box {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    width: 1324px;
+    height: 800px;
+    bottom:0px;
+    left:201px;
+}
+
+
+.souv-box-card h3 {
+    position: relative;
+    font-style: 'Roboto';
+    font-weight: 700;
+    left: 25px;
+    top: 20px;
+    color:#2D3748;
+}
+
+.souv-box-card-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 30px;
+    top: 85px;
+    border-radius: 12px;
+}
+
+.souv-box-card-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 129px;
+    top: 119px;
+}
+
+.souv-box-card-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 35px;
+    top: 225px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 35px;
+    top: 240px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 35px;
+    top: 275px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40px;
+    top: 335px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+
+.souv-box-card2-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 340px;
+    top: 85px;
+    border-radius: 12px;
+}
+
+.souv-box-card2-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 445px;
+    top: 119px;
+}
+
+.souv-box-card2-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 347px;
+    top: 225px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card2-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 347px;
+    top: 240px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card2-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 350px;
+    top: 275px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card2-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 347px;
+    top: 335px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card2-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+
+.souv-box-card3-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 650px;
+    top: 85px;
+    border-radius: 12px;
+}
+
+.souv-box-card3-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 755px;
+    top: 119px;
+}
+
+.souv-box-card3-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 657px;
+    top: 225px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card3-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 657px;
+    top: 240px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card3-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 657px;
+    top: 280px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card3-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 657px;
+    top: 340px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card3-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.souv-box-card4-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 961px;
+    top: 85px;
+    border-radius: 12px;
+}
+
+.souv-box-card4-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 1070px;
+    top: 119px;
+}
+
+.souv-box-card4-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 974px;
+    top: 225px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card4-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 974px;
+    top: 240px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card4-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 974px;
+    top: 280px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card4-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 974px;
+    top: 340px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card4-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.souv-box-card5-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 30px;
+    top: 425px;
+    border-radius: 12px;
+}
+
+.souv-box-card5-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 129px;
+    top: 454px;
+}
+
+.souv-box-card5-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 35px;
+    top: 570px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card5-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 35px;
+    top: 590px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card5-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 35px;
+    top: 625px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card5-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40px;
+    top: 685px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card5-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.souv-box-card6-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 340px;
+    top: 425px;
+    border-radius: 12px;
+}
+
+.souv-box-card6-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 445px;
+    top: 454px;
+}
+
+.souv-box-card6-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 347px;
+    top: 570px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card6-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 347px;
+    top: 590px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card6-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 350px;
+    top: 625px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card6-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 347px;
+    top: 685px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card6-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+
+.souv-box-card7-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 650px;
+    top: 425px;
+    border-radius: 12px;
+}
+
+.souv-box-card7-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 755px;
+    top: 454px;
+}
+
+.souv-box-card7-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 657px;
+    top: 570px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card7-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 657px;
+    top: 590px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card7-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 657px;
+    top: 625px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card7-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 657px;
+    top: 685px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card7-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+
+.souv-box-card8-black-rectangle img {
+    position: absolute;
+    width: 294px;
+    height: 145px;
+    left: 961px;
+    top: 425px;
+    border-radius: 12px;
+}
+
+.souv-box-card8-black-rectangle-logo img {
+    position: absolute;
+    width: 80px;
+    height: 76px;
+    left: 1070px;
+    top: 454px;
+}
+
+.souv-box-card8-text h3 {
+    position: absolute;
+    width: 79px;
+    height: 10px;
+    left: 974px;
+    top: 570px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #A0AEC0;
+
+}
+
+.souv-box-card8-text h1 {
+    position: absolute;
+    width: 285px;
+    height: 25px;
+    left: 974px;
+    top: 590px;
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2D3748;
+
+}
+
+.souv-box-card8-text p {
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 974px;
+    top: 625px;
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #A0AEC0;
+}
+
+.souv-box-card8-botao-acessar {
+    box-sizing: border-box;
+    display: flex;
+    width: 121px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 974px;
+    top: 685px;
+    border: 2.37143px solid #01B5D8;
+    border-radius: 14.2286px;
+
+}
+
+.souv-box-card8-botao-acessar a{
+    position:relative;
+    width: 80px;
+    height: 17px;
+    bottom:5px;
+    left:16px;      
+    font-style: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    color: #01B5D8;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    text-decoration: none;
+}
